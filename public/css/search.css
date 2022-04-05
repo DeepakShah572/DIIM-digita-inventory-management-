@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 6rem auto;
+}
+
+.label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 30px;
+    font-weight: 300;
+    transition: .3s;
+    color: white;
+    background: #000000;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+#searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#searchQuerySubmit:hover {
+    cursor: pointer;
+}
+
+#searchQueryInput:hover {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 100px #ffffff;
+    color: #000000;
+}

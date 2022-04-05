@@ -1,0 +1,19 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.download {
+    float: right;
+    background-color: #EE4433;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    border: 0ch;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
